@@ -260,9 +260,12 @@ a {
         display: hidden;
 
     }
-
     .share__options ul {
         margin-bottom: 0;
+        visibility: hidden;
+    }
+    .share__options.active ul{
+        visibility: visible;
     }
 
     .share__options.active::before {
